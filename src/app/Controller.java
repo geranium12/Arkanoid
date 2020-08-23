@@ -36,12 +36,12 @@ public class Controller {
 
                 if (isDead) {
                     cancel();
-                    //view.switchToDie();
-                    view.switchToWin();
+                    view.switchToDie();
+                    //view.switchToWin();
                 }
                 if (isWon) {
                     cancel();
-                    //view.switchToWin();
+                    view.switchToWin();
                 }
             }
         };
